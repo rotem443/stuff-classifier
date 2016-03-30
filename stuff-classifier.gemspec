@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{2 methods are provided for now - (1) naive bayes implementation + (2) tf-idf weights}
 
   s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.test_files    = `git ls-files -- {test,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
